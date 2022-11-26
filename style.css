@@ -33,10 +33,23 @@ body {
 .container .inputBox input {
   position: relative;
   padding: 8px 10px;
+  width: 100px;
   border: none;
   outline: none;
-  background: #333;
+  background: transparent;
+  background: #fff;
   color: #fff;
   font-size: 1.25em;
+  letter-spacing: 0.05em;
+}
+
+.container .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 10px 0px;
+  pointer-events: none;
+  font-size: 1em;
+  transition: 0.5s;
+  color: #333;
   letter-spacing: 0.05em;
 }
